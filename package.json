@@ -1,0 +1,30 @@
+{
+  "name": "pttavm",
+  "version": "1.0.0",
+  "description": "Bu paket pttavm için basit şekilde tedarikçi api entegrasyonu sağlar.",
+  "main": "src/index.js",
+  "types": "pttavm.d.ts",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karaoglanhk/pttavm.git"
+  },
+  "keywords": [
+    "pttavm",
+    "ptt",
+    "epttavm"
+  ],
+  "author": "Hüseyin Karaoğlan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/karaoglanhk/pttavm/issues"
+  },
+  "homepage": "https://github.com/karaoglanhk/pttavm#readme",
+  "dependencies": {
+    "node-fetch": "^3.3.2",
+    "readline": "^1.3.0"
+  }
+}
